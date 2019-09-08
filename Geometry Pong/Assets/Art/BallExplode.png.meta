@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: f136b28d9fded4b4f8d76f39168420b9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BallExplode_0
+    21300002: BallExplode_1
+    21300004: BallExplode_2
+    21300006: BallExplode_3
+    21300008: BallExplode_4
+    21300010: BallExplode_5
+    21300012: BallExplode_6
+    21300014: BallExplode_7
+    21300016: BallExplode_8
+    21300018: BallExplode_9
+    21300020: BallExplode_10
+    21300022: BallExplode_11
+    21300024: BallExplode_12
+    21300026: BallExplode_13
+    21300028: BallExplode_14
+    21300030: BallExplode_15
+    21300032: BallExplode_16
+    21300034: BallExplode_17
+    21300036: BallExplode_18
+    21300038: BallExplode_19
+    21300040: BallExplode_20
+    21300042: BallExplode_21
+    21300044: BallExplode_22
+    21300046: BallExplode_23
+    21300048: BallExplode_24
+    21300050: BallExplode_25
+    21300052: BallExplode_26
+    21300054: BallExplode_27
+    21300056: BallExplode_28
+    21300058: BallExplode_29
+    21300060: BallExplode_30
+    21300062: BallExplode_31
+    21300064: BallExplode_32
+    21300066: BallExplode_33
+    21300068: BallExplode_34
+    21300070: BallExplode_35
+    21300072: BallExplode_36
+    21300074: BallExplode_37
+    21300076: BallExplode_38
+    21300078: BallExplode_39
+    21300080: BallExplode_40
+    21300082: BallExplode_41
+    21300084: BallExplode_42
+    21300086: BallExplode_43
+    21300088: BallExplode_44
+    21300090: BallExplode_45
+    21300092: BallExplode_46
+    21300094: BallExplode_47
+    21300096: BallExplode_48
+    21300098: BallExplode_49
+    21300100: BallExplode_50
+    21300102: BallExplode_51
+    21300104: BallExplode_52
+    21300106: BallExplode_53
+    21300108: BallExplode_54
+    21300110: BallExplode_55
+    21300112: BallExplode_56
+    21300114: BallExplode_57
+    21300116: BallExplode_58
+    21300118: BallExplode_59
+    21300120: BallExplode_60
+    21300122: BallExplode_61
+    21300124: BallExplode_62
+    21300126: BallExplode_63
+    21300128: BallExplode_64
+    21300130: BallExplode_65
+    21300132: BallExplode_66
+    21300134: BallExplode_67
+    21300136: BallExplode_68
+    21300138: BallExplode_69
+    21300140: BallExplode_70
+    21300142: BallExplode_71
+    21300144: BallExplode_72
+    21300146: BallExplode_73
+    21300148: BallExplode_74
+    21300150: BallExplode_75
+    21300152: BallExplode_76
+    21300154: BallExplode_77
+    21300156: BallExplode_78
+    21300158: BallExplode_79
+    21300160: BallExplode_80
+    21300162: BallExplode_81
+    21300164: BallExplode_82
+    21300166: BallExplode_83
+    21300168: BallExplode_84
+    21300170: BallExplode_85
+    21300172: BallExplode_86
+    21300174: BallExplode_87
+    21300176: BallExplode_88
+    21300178: BallExplode_89
+    21300180: BallExplode_90
+    21300182: BallExplode_91
+    21300184: BallExplode_92
+    21300186: BallExplode_93
+    21300188: BallExplode_94
+    21300190: BallExplode_95
+    21300192: BallExplode_96
+    21300194: BallExplode_97
+    21300196: BallExplode_98
+    21300198: BallExplode_99
+    21300200: BallExplode_100
+    21300202: BallExplode_101
+    21300204: BallExplode_102
+    21300206: BallExplode_103
+    21300208: BallExplode_104
+    21300210: BallExplode_105
+    21300212: BallExplode_106
+    21300214: BallExplode_107
+    21300216: BallExplode_108
+    21300218: BallExplode_109
+    21300220: BallExplode_110
+    21300222: BallExplode_111
+    21300224: BallExplode_112
+    21300226: BallExplode_113
+    21300228: BallExplode_114
+    21300230: BallExplode_115
+    21300232: BallExplode_116
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BallExplode_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 805
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f398a0e858e104c1c846633291ea2b01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BallExplode_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 797
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb683dac2dc4447ebbaf22244f0e731f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BallExplode_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 801
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296325d00f94046af8f968ce2d16cac8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BallExplode_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 559
+        width: 227
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b043990151a574252b1484daffef71e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BallExplode_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 559
+        width: 247
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac85d2b0e72f426cb47b9bd8a611a8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BallExplode_5
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 545
+        width: 204
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947a4a7fa75124526b7f65d38efcbcba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BallExplode_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4f1df7d1a494c9e95bc873e52beafa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fbd9e23c6d801437d9d2a68d886616fa
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
