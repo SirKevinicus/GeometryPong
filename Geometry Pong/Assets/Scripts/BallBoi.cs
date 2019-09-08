@@ -30,9 +30,12 @@ public abstract class BallBoi : MoveableObject{
         boundary = gm.GetComponent<ObjBoundary>();
         bounceAnim = Resources.Load<GameObject>("Bounce");
 
+        //Set Attributes
+        this.gameObject.tag = "Ball";
+
         //Set the Boundaries
         CalcBounds(this.gameObject);
-		ySpawn = boundary.getBallYAxis();
+		    ySpawn = boundary.getBallYAxis();
 
         //Components
         ballTransform = this.GetComponent<Transform>();
@@ -97,7 +100,7 @@ public abstract class BallBoi : MoveableObject{
 
     protected void Update() {
         CalcBounds(this.gameObject);
-        
+
         if(isActive){
             //If it hits the right side
             if(this.transform.position.x >= xMax){

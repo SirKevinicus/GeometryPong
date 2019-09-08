@@ -18,7 +18,7 @@ public class PaddleMaster : MonoBehaviour {
 	GameObject PopUp;
 	GameObject message;
 
-    
+
 
 	// Use this for initialization
 	void Awake () {
@@ -26,23 +26,23 @@ public class PaddleMaster : MonoBehaviour {
 		bm = GameObject.Find("Game Master").GetComponent<BallMaster>();
 
 		onePaddle = (GameObject)Resources.Load("1SPaddle", typeof(GameObject));
-        twoPaddle = (GameObject)Resources.Load("2SPaddle", typeof(GameObject));
-        threePaddle = (GameObject)Resources.Load("3SPaddle", typeof(GameObject));
-        fourPaddle = (GameObject)Resources.Load("4SPaddle", typeof(GameObject));
-        fivePaddle = (GameObject)Resources.Load("5SPaddle", typeof(GameObject));
-        sixPaddle = (GameObject)Resources.Load("6SPaddle", typeof(GameObject));
+    twoPaddle = (GameObject)Resources.Load("2SPaddle", typeof(GameObject));
+    threePaddle = (GameObject)Resources.Load("3SPaddle", typeof(GameObject));
+    fourPaddle = (GameObject)Resources.Load("4SPaddle", typeof(GameObject));
+    fivePaddle = (GameObject)Resources.Load("5SPaddle", typeof(GameObject));
+    sixPaddle = (GameObject)Resources.Load("6SPaddle", typeof(GameObject));
 
 		PopUp = (GameObject)Resources.Load("PopUp", typeof(GameObject));
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
 	public void PaddleUpgrade(int score)
     {
-        float zoomDist = 3.0f;
+        //float zoomDist = 3.0f;
         float pauseTime = 2.0f;
 
         if (score == 0)
@@ -53,7 +53,6 @@ public class PaddleMaster : MonoBehaviour {
         }
         else if (score == 2)
         {
-            
             PaddleUpgrade();
             Instantiate(twoPaddle);
             bm.PauseThenStartSpawn(pauseTime);
@@ -65,7 +64,7 @@ public class PaddleMaster : MonoBehaviour {
             Instantiate(threePaddle);
             //view.ZoomOutLevel(5f);
             bm.PauseThenStartSpawn(pauseTime);
-			bm.SetSpeedChance(30, 50, 10, 10);
+			      bm.SetSpeedChance(30, 50, 10, 10);
             bm.SetSpawnChance(80, 20);
         }
         else if (score == 10)
@@ -74,7 +73,7 @@ public class PaddleMaster : MonoBehaviour {
             Instantiate(fourPaddle);
             //view.ZoomOutLevel(5f);
             bm.PauseThenStartSpawn(pauseTime);
-			bm.SetSpeedChance(20, 50, 20, 10);
+			      bm.SetSpeedChance(20, 50, 20, 10);
             bm.SetSpawnChance(70, 30);
         }
         else if (score == 20)
@@ -83,7 +82,7 @@ public class PaddleMaster : MonoBehaviour {
             Instantiate(fivePaddle);
             //view.ZoomOutLevel(5f);
             bm.PauseThenStartSpawn(pauseTime);
-			bm.SetSpeedChance(10, 50, 30, 10);
+			      bm.SetSpeedChance(10, 50, 30, 10);
             bm.SetSpawnChance(65, 35);
         }
         else if (score == 30){
@@ -91,7 +90,7 @@ public class PaddleMaster : MonoBehaviour {
             Instantiate(sixPaddle);
             //view.ZoomOutLevel(5f);
             bm.PauseThenStartSpawn(pauseTime);
-			bm.SetSpeedChance(0, 40, 40, 20);
+			      bm.SetSpeedChance(0, 40, 40, 20);
             bm.SetSpawnChance(60, 40);
         }
     }

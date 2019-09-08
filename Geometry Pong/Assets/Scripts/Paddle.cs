@@ -12,7 +12,7 @@ public class Paddle : MoveableObject
     GameView view;
 
     //ATTRIBUTES
-    int numSides;
+    int numSides = 0;
 
     GameObject active_side;
     int active_side_num;
@@ -50,8 +50,8 @@ public class Paddle : MoveableObject
         CanMove();
         CalcDegreeAngle();
         teleportToStartPos();
-        if (numSides > 1) { 
-            DestroyOldPaddle(); 
+        if (numSides > 1) {
+            DestroyOldPaddle();
         }
         colorSwatch.PickNewColor();
 
@@ -66,13 +66,13 @@ public class Paddle : MoveableObject
     {
         int numChildren = this.transform.childCount;
         //Count the number of sides
-        for (int i = 0; i < this.transform.childCount; i++)
+        /*for (int i = 0; i < this.transform.childCount; i++)
         {
             if (this.transform.GetChild(i).tag != "PaddleSide")
             {
                 numChildren--;
             }
-        }
+        }*/
 
         sides = new GameObject[numChildren];
         for (int i = 0; i < numChildren; i++)
@@ -167,11 +167,11 @@ public class Paddle : MoveableObject
                 for(int i = 0; i < Input.touchCount; i++){
                     Touch finger = Input.GetTouch(i);
                     timeTouched[i] += Time.deltaTime;
-                    
+
                     if(finger.phase == TouchPhase.Began){
                         dist[i] = new Vector2(0,0); //Initialize the distance for the finger
                     }
-                    
+
                     //When the moving finger moves
                     if(finger.phase == TouchPhase.Moved && finger.fingerId == moveID){
                         //If the touch has gone more than 20f, go ahead and move

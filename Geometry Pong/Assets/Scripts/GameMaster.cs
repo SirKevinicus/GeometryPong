@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class GameMaster : MonoBehaviour
@@ -12,10 +13,9 @@ public class GameMaster : MonoBehaviour
     BallMaster bm;
     PaddleMaster pm;
     public ScoreCounter score;
-    public GameView view;
 
     //VARS
-    
+
     public int paddleNum = 1;
 
     //////////////////////////////////////////////////////////////////
@@ -29,10 +29,9 @@ public class GameMaster : MonoBehaviour
         bm = GetComponent<BallMaster>();
 
         ColorSwatch = this.gameObject.GetComponent<ColorSwatches>();
-        
+
         pm.PaddleUpgrade(score.getScore());
         bm.InvokeBalls();
-        view.FocusThenZoomToRegularView();
     }
 
     public void RestartGame()
@@ -42,9 +41,6 @@ public class GameMaster : MonoBehaviour
         score.showScore();
         gameObject.GetComponent<HighScore>().canGetNewHighScore = true;
 
-        //CAMERA
-        view.ResetCam();
-
         //DELETE OLD PADDLE
         Destroy(GameObject.FindWithTag("Paddle"));
         ColorSwatch.ResetColors();
@@ -52,11 +48,10 @@ public class GameMaster : MonoBehaviour
         //CREATE NEW PADDLE
         pm.PaddleUpgrade(0);
 
-        //RESTART CAMERA
-        view.FocusThenZoomToRegularView();
-
         //SPAWN STUFF
         bm.InvokeBalls();
+
+        gameoverman.HideGameOverMenu();
     }
 
 
@@ -65,6 +60,10 @@ public class GameMaster : MonoBehaviour
     {
         bm.CancelInvoke();
         score.hideScore();
-        gameoverman.ToggleGameOverMenu();
+        gameoverman.ShowGameOverMenu();
+    }
+
+    public void GoToMenu(){
+      SceneManager.LoadScene("Greeting");
     }
 }

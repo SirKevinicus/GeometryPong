@@ -76,7 +76,7 @@ public class ColorSwatches : MonoBehaviour {
 		*/
 		System.Random rand = new System.Random();	//Pick a random Index from the dictionary
 		int randIndex = rand.Next(active_colors.Count);	//Get that Color's Key
-		
+
 		return active_colors[randIndex];	//This is the RGB Value
 	}
 

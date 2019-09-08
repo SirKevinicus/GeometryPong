@@ -9,11 +9,11 @@ public class BottomSensor : MonoBehaviour {
 	public ObjBoundary bounds;
 
 	void Start(){
-		
+
 	}
 
 	void Update(){
-		SetSize();
+		//SetSize();
 	}
 
 	void SetSize(){
@@ -22,6 +22,7 @@ public class BottomSensor : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D other){
+		Debug.Log("TRIGGER");
 		if (other.gameObject.tag == "Ball"){
 			StartCoroutine(WaitThenDeleteBall(other.gameObject));
 			other.enabled = false;
@@ -46,5 +47,5 @@ public class BottomSensor : MonoBehaviour {
 		yield return new WaitForSeconds(2f);
 		Destroy(other.gameObject);
 	}
-	
+
 }

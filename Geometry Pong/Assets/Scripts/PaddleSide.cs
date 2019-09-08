@@ -17,7 +17,7 @@ public class PaddleSide : MonoBehaviour {
 		score = GameObject.Find("Game Master").GetComponent<ScoreCounter>();
 		colorSwatch = GameObject.Find("Game Master").GetComponent<ColorSwatches>();
 		gm = GameObject.Find("Game Master").GetComponent<GameMaster>();
-		
+
 		this.gameObject.tag = "PaddleSide";
 
 		//SET COLOR

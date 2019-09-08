@@ -11,14 +11,14 @@ public class BallMaster : MonoBehaviour {
 	float repeatTime = 2f;
 	public bool canSpawn = true;
 	public float[] oddsToSpeed = new float[]{0.5f, 0.9f, 0.98f};
-    public float[] oddsToSpawn = new float[]{1.0f, 1.0f};
+  public float[] oddsToSpawn = new float[]{1.0f, 1.0f};
 
 	// Use this for initialization
 	void Start () {
 		Bomb = (GameObject)Resources.Load("Bomb", typeof(GameObject));
 		ColorBall =(GameObject)Resources.Load("ColorBall", typeof(GameObject));
 	}
-	
+
 	public void InvokeBalls(){
         InvokeRepeating("Spawn", 0, repeatTime);
     }

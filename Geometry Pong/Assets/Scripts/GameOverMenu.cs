@@ -8,14 +8,14 @@ public class GameOverMenu : MonoBehaviour {
 	public GameMaster gm;
 	public GameObject[] ballList;
 	public ScoreCounter score;
-	
+
 	void Start(){
 		//Hide the GameOver Panel
 		gameObject.SetActive(false);
 	}
 
 	//Called when the player loses
-	public void ToggleGameOverMenu(){
+	public void ShowGameOverMenu(){
     	//Show the Game Over Panel
 		gameObject.SetActive(true);
 		score.SetFinalScore();
@@ -30,16 +30,8 @@ public class GameOverMenu : MonoBehaviour {
 		}
 	}
 
-	//Controls the buttons on the Game Over Menu
-	public void OnClickButton(string choice){
-		//If player clicks "Continue"
-		if(choice == "continue"){
-			this.gameObject.SetActive(false);
-			gm.RestartGame();
-		}
-		//If they click "Menu"
-		else if(choice == "menu"){
-			SceneManager.LoadScene("Greeting");
-		}
+	public void HideGameOverMenu(){
+		gameObject.SetActive(false);
 	}
+	
 }
