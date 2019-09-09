@@ -10,11 +10,13 @@ public class SettingsPanel : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		panel = this.GetComponent<GameObject>();
+		gameObject.SetActive(false);
+		isEnabled = false;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
 	public void ToggleSettingsPanel(){
