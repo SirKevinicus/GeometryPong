@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class TapToStart : MonoBehaviour {
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.touchCount > 0){
 			CastRay();
 		}
 		if(Input.GetMouseButtonDown(0)){
-			CastRay();
+			//CastRay();
 		}
-		
+	}
+
+	public void StartGame(){
+		SceneManager.LoadScene("Game");
 	}
 
 	void CastRay(){
+Debug.Log("CAST");
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			RaycastHit2D hit = Physics2D.Raycast (ray.origin, ray.direction, Mathf.Infinity);
 
